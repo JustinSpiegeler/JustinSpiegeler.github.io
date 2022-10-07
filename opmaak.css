@@ -33,4 +33,12 @@ ul {
     color: white;
   }
 
-  
+  body {
+      background-color: lightgreen;
+
+  }
+
+  #body1 {
+
+    background-color: coral;
+  }
