@@ -34,11 +34,11 @@ ul {
   }
 
   body {
-      background-color: khaki;
+      background-color: khaki; /* backgroundcolour van body (binairstelsel+ kleurmodellen)*/
 
   }
 
   #body1 {
 
-    background-color: paleturquoise;
+    background-color: paleturquoise; /* backgroundcolour van #body1 (onze homepage)*/
   }
