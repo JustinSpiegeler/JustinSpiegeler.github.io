@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #e74444;
     border: 1px solid #555;
   }
   
@@ -34,7 +34,7 @@ ul {
   }
 
   body {
-      background-color: khaki; /* backgroundcolour van body (binairstelsel+ kleurmodellen)*/
+      background-color: khaki; /* backgroundcolour van body (binairstelsel+ kleurmodellen+ bitmap)*/
 
   }
 
