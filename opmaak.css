@@ -8,8 +8,8 @@ ul {
   
   li a {
     display: block;
-    color: #000;
-    padding: 8px 16px;
+    color: #000; /*kleur van de tekst bij de inhudsopgave*/
+    padding: 8px 16px; /*breete en hoogte van de inhoudsopgave*/
     text-decoration: none;
   }
   
