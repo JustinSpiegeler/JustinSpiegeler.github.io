@@ -20,15 +20,9 @@ ul {
     border-bottom: 1px solid #555;
   }
   
-  
-  li a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
   li a:hover:not(.active) {
-    background-color: #555;
-    color: white; /* backgroundcolour van ons menu*/
+    background-color: #555; /* Tekst van het vakje bij de inhoudopgave als je evoverheen gaat*/
+    color: white; /* kleur van de tekst bij de inhoudsopgave als je eroverheen gaat*/
   }
 
   body {
