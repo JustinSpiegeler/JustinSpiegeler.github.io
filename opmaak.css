@@ -4,7 +4,7 @@ ul {
     padding: 0;
     width: 200px;
     background-color: #e68938; /* Kleur van de blokjes van de inhoudopgave*/
-    border: 5px solid #62a056; /* Kleur van de border van de inhoudsopgave*/
+    border: 50px solid #62a056; /* Kleur van de border van de inhoudsopgave*/
   }
   
   li a {
