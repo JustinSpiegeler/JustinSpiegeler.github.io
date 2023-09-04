@@ -1,17 +1,2 @@
-<!DOCTYPE html> <!--dit is de binair stelsel pagina van de site-->
-<html> <!--dit is het html-element-->
-  <head>
-    <title>3-lagenmodel</title> <!--dit is de titel van de pagina over 3-lagemodel-->
-    <link rel="stylesheet" href="opmaak.css"> <!--link naar css-->
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <ul> <!--unorderd list-->
-      <li><a href="index.html">Home</a> <!--link terug naar de homepage--></li>
-      <li><a href="binairstelsel.html">Binair stelsel</a> <!--link terug naar pagina over binair stelsel--></li> 
-      <li><a href="kleurmodellen.html">Kleurmodellen</a> <!--link terug naar paigina over kleumodellen--></li>
-      <li><a href="Bitmap.html">Bitmap</a> <!--link terug naar de pagina over bitmap--></li>
-      <li><a href="3-lagenmodel.html">3-lagenmodel</a> <!--link naar de pagina over het 3-lagemodel--></li>
-    </ul> 
 
     
