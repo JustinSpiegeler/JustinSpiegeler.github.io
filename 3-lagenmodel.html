@@ -26,21 +26,26 @@
 
     <article> <!--begin artikel-->
       <h2>Algemene informatie over 3-lagenmodel</h2>
-        <p>Het 3-lagenmodel is een conceptueel model dat vaak wordt gebruikt om de architectuur 
-          van computersystemen en netwerken te begrijpen. Dit model verdeelt de functionaliteit 
-          van een systeem in drie hoofdlagen: de fysieke laag, de logische laag en de toepassingenlaag. </p>
+        <p>Het 3-lagenmodel van een besturingssysteem (OS) is een conceptueel model dat wordt gebruikt om de organisatie en functionaliteit van een besturingssysteem in een computersysteem te beschrijven. Het model verdeelt het besturingssysteem en zijn taken in drie hoofdlagen: de fysieke laag, de logische laag en de toepassingenlaag.
+          Het 3-lagenmodel van een besturingssysteem helpt bij het begrijpen van de rol van het besturingssysteem binnen een computersysteem en hoe het fungeert als een tussenlaag die hardwarebeheer mogelijk maakt en softwaretoepassingen in staat stelt om efficiënt op de hardware te draaien.
+          Het model dient als een conceptueel kader voor het begrijpen van de interactie en verantwoordelijkheden van verschillende componenten in een computeromgeving.</p>
+     
       <h2>Communicatie tussen de lagen</h2>
-        <p>Fysieke laag:</p>
-        <p>De fysieke laag is de onderste laag in dit model en is verantwoordelijk voor de fysieke verbindingen en transmissie van ruwe binaire gegevens over het netwerkmedium (bijvoorbeeld elektrische signalen over een Ethernet-kabel of radiogolven in een draadloos netwerk).
-        De fysieke laag communiceert met de logische laag door de ruwe gegevens te leveren aan de logische laag voor verdere verwerking.</p>
+        <p>Van de fysieke laag naar de logische laag:</p>
+        <p>De fysieke laag, bestaande uit hardwarecomponenten zoals de CPU, geheugen, opslagmedia en randapparatuur, communiceert met de logische laag via hardwareinterfaces en bussen.
+          Bijvoorbeeld, de CPU communiceert met het besturingssysteem door middel van instructies en registers. Het kan verzoeken om geheugen te lezen of schrijven, instructies uit te voeren en te communiceren met randapparatuur zoals toetsenborden en muizen via de hardwarebussen.</p>
 
-        <p>Logische laag:</p>
-        <p>De logische laag bevindt zich boven de fysieke laag en heeft tot taak om de fysieke communicatie betrouwbaar te maken door foutdetectie en foutcorrectie toe te passen.
-        Deze laag communiceert met de fysieke laag door de gegevens te ontvangen van de fysieke laag, deze te verwerken en vervolgens door te sturen naar de toepassingslaag of de bovenliggende lagen.</p>
+        <p>Van de logische laag naar de fysieke laag:</p>
+        <p>Het besturingssysteem in de logische laag coördineert en beheert de interactie tussen de hardwarecomponenten. Het bepaalt welke processen toegang hebben tot de CPU en het geheugen en hoe hardwarebronnen worden toegewezen.
+          Het besturingssysteem kan verzoeken van toepassingen doorgeven aan de fysieke laag om bijvoorbeeld gegevens van opslagmedia te lezen of te schrijven, geheugenruimte toewijzen aan processen of gegevens naar randapparatuur sturen.</p>
 
-        <p>Toepassingslaag:</p>
-        <p>De toepassingslaag is de bovenste laag in dit model en is verantwoordelijk voor de interactie met applicaties en gebruikers.
-        Deze laag communiceert met de logische laag door gegevens te verzenden en ontvangen vanuit applicaties die op de computer draaien. Deze gegevens worden via de logische laag naar de fysieke laag gestuurd voor uiteindelijke overdracht over het netwerk.</p>
+        <p>Van de logische laag naar de toepassingslaag:</p>
+        <p>De logische laag communiceert met de toepassingenlaag door diensten en interfaces aan te bieden aan softwaretoepassingen. Dit omvat API's (Application Programming Interfaces) en systeemoproepen waarmee toepassingen toegang krijgen tot besturingssysteembronnen en -functies.
+          Toepassingen kunnen via deze interfaces verzoeken indienen om bestanden te lezen, schrijven, processen te starten, geheugen toe te wijzen en toegang te krijgen tot randapparatuur.</p>
+
+        <p>Van de toepassingslaag naar de logische laag</p>
+        <p>Toepassingen in de toepassingenlaag communiceren met het besturingssysteem door verzoeken in te dienen via de beschikbare API's en systeemoproepen. Deze verzoeken omvatten taken zoals het openen van bestanden, het uitvoeren van processen en het beheren van gegevens.
+          Het besturingssysteem verwerkt deze verzoeken, beheert de toegang tot systeembronnen en beantwoordt de aanvragen van de toepassingen.</p>
 
       <h2>Verdieping operating system</h2>
       <p>Op de laag van de fysieke laag beheert het besturingssysteem de fysieke bronnen van de computer, zoals de processor, 
