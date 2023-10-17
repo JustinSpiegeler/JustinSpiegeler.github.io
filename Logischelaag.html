@@ -22,32 +22,30 @@
     </ul>
 
     <h2>Logische laag</h2>
-    <p>De logische laag bevindt zich boven de fysieke laag en omvat het besturingssysteem, dat essentieel is voor de coördinatie en beheer van hardwarebronnen en softwareprocessen.</p> 
+    <p> In het 3-lagenmodel van een besturingssysteem (OS) vertegenwoordigt de logische laag de softwarecomponenten die essentieel zijn voor het beheer van de computerhardware en het mogelijk maken van de uitvoering van softwaretoepassingen.</p> 
     <p>Andere begrippen in deze laag zijn:</p>
-    <p>Operating System (besturingssysteem): Het besturingssysteem is verantwoordelijk voor taken zoals het beheren van geheugen, het plannen van processen en het bieden van een gebruikersinterface.</p>
-     <p>Talen/compilers: Talen worden gebruikt om software te schrijven, en compilers vertalen deze programmeertalen naar machinetaal die de computer begrijpt. </p>
-     
+    <p>Operating System (Besturingssysteem): Het besturingssysteem is de kerncomponent van de logische laag. Het is een softwarelaag die dient als een brug tussen de hardware en software van de computer. Het besturingssysteem beheert de hardwarebronnen, zoals de CPU, geheugen, opslag en randapparatuur, en biedt een gebruikersinterface voor interactie met de computer.</p>
+    <p>Taken van het besturingssysteem: Het besturingssysteem voert verschillende cruciale taken uit, waaronder het beheren van processen (de uitvoering van softwareprogramma's), het beheer van geheugen (toewijzing en vrijgave van geheugenbronnen), het beheren van bestandssystemen (opslag en organisatie van gegevens op opslagmedia), het beheren van randapparatuur (zoals afdruktaken) en het bieden van beveiliging en gebruikersauthenticatie.</p>
+    <p>Talen/compilers: Binnen de logische laag omvat het besturingssysteem ondersteuning voor verschillende programmeertalen en compilers. Programmeertalen worden gebruikt om softwaretoepassingen te ontwikkelen. Het besturingssysteem biedt hulpmiddelen en interfaces voor het compileren en uitvoeren van programma's die zijn geschreven in deze talen. Het vertaalt de broncode van programma's naar uitvoerbare code die de hardware begrijpt. </p>
+    <p>De logische laag van het 3-lagenmodel vormt de brug tussen de fysieke hardwarelaag en de toepassingenlaag, waarbij het besturingssysteem de coördinatie en controle mogelijk maakt om een breed scala aan softwaretoepassingen op de computer uit te voeren.</p>
+
       <h2>Werking van de logische laag</h2>
       <p>Logische laag (ook wel de netwerklaag genoemd):</p>
 
-      <p>Doel:
-      De logische laag is verantwoordelijk voor het beheren van de communicatie tussen verschillende apparaten in een computernetwerk. Het biedt een gestandaardiseerde manier om gegevens van het ene apparaat naar het andere te routeren, ongeacht de fysieke verbindingen of topologie van het netwerk.</p>
+      <p>Doel: De logische laag fungeert als een brug tussen de fysieke hardware en softwaretoepassingen. Het doel is om hardwarecomplexiteit te verbergen en softwaretoepassingen een gecontroleerde omgeving te bieden.</p>
       
       <p>Functionaliteit:
-      Routing: De logische laag maakt gebruik van protocollen zoals IP (Internet Protocol) om gegevenspakketten van het ene netwerkapparaat naar het andere te routeren. Dit omvat het bepalen van de beste route voor gegevens om te reizen.
-      Subnetwerken: Het verdeelt grote netwerken in kleinere subnetwerken om het beheer en de efficiëntie te verbeteren.
-      Logische adres toewijzing: Elk apparaat in een netwerk krijgt een logisch IP-adres toegewezen dat wordt gebruikt om het te identificeren en te lokaliseren in het netwerk.
-      Error handling: Het kan fouten detecteren en corrigeren die zich tijdens gegevensoverdracht kunnen voordoen.</p>
+        Functionaliteit:
+        Beheert hardwarebronnen zoals CPU, geheugen, opslag, en randapparatuur.
+        Coördineert de uitvoering van processen en threads.
+        Beheert geheugen, inclusief RAM, om een efficiënte toewijzing te garanderen.
+        Biedt toegang tot bestandssystemen en beheert gegevensopslag.
+        Vergemakkelijt de communicatie tussen softwaretoepassingen en randapparatuur.
+        Handhaaft beveiliging en autorisatie door gebruikersaccounts en toegangsrechten te beheren.
+        Biedt ondersteuning voor verschillende programmeertalen en compilers.</p>
       
-      <p>Voorbeeldprotocollen:
-      IP (Internet Protocol): Dit is het meest voorkomende protocol in de logische laag en wordt gebruikt voor het routeren van gegevens over het internet.
-      ICMP (Internet Control Message Protocol): Dit wordt gebruikt voor het verzenden van fout- en besturingsberichten, zoals ping.</p>
-      Interactie met andere lagen:
-      
-      <p>De logische laag werkt samen met de toepassingslaag bovenaan, waarbij gegevenspakketten van toepassingen worden ontvangen en naar de juiste bestemming worden gerouteerd.
-      Het communiceert ook met de fysieke laag onderaan om gegevens over de fysieke netwerkverbindingen te verzenden en ontvangen.
-      Kortom, de logische laag in het 3 lagenmodel speelt een cruciale rol in het beheren van gegevensverkeer en routering in computernetwerken. Het zorgt ervoor dat gegevens effectief kunnen worden verzonden tussen apparaten, ongeacht hun fysieke locatie in het netwerk.      
-    </p>
+      <p>Interactie met andere lagen: De logische laag fungeert als een tussenstation tussen hardware en software. Het ontvangt verzoeken van softwaretoepassingen en coördineert de toegang tot hardwarebronnen. Tegelijkertijd biedt het een abstractielaag voor softwareontwikkelaars, waardoor 
+      ze toepassingen kunnen bouwen zonder zich zorgen te hoeven maken over hardware-details, waardoor verschillende softwaretoepassingen efficiënt en gelijktijdig op dezelfde hardware kunnen werken.</p>
 
     
 
